@@ -20,7 +20,6 @@ public class News implements Serializable {
 
     // Default constructor required for Firestore
     public News() {}
-
     // Constructor with essential fields
     public News(String title, String content, String category, String imageUrl) {
         this.title = title;
@@ -41,7 +40,6 @@ public class News implements Serializable {
     public void setId(String id) {
         this.id = id;
     }
-
     public String getTitle() {
         return title != null ? title : "";
     }
