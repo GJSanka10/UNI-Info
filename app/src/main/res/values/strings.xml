@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">FOT Pulse</string>
+
+    <!-- Splash Screen -->
+    <string name="loading">Loading...</string>
+
+    <!-- Authentication -->
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_in">Sign In</string>
+    <string name="welcome_back">Welcome Back</string>
+    <string name="lets_get_started">Let\'s Get You Started</string>
+    <string name="enter_email_password">Enter your email and password</string>
+    <string name="full_name">Full Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="already_have_account">Already Have An Account? Sign In</string>
+    <string name="create_an_account">Create An Account</string>
+
+    <!-- Forgot Password -->
+    <string name="forgot_password_title">Forgot Password</string>
+    <string name="enter_email_address">Enter Email Address</string>
+    <string name="back_to_sign_in">Back To Sign In</string>
+    <string name="send">Send</string>
+
+    <!-- Verification -->
+    <string name="verification">Verification</string>
+    <string name="enter_verification_code">Enter Verification Code</string>
+    <string name="code_expires_in">Code Expires In</string>
+    <string name="didnt_receive_code">If You Didn\'t Receive Code</string>
+    <string name="resend">Resend</string>
+    <string name="verify">Verify</string>
+
+    <!-- New Password -->
+    <string name="new_password">New Password</string>
+    <string name="enter_new_password">Enter New Password</string>
+    <string name="confirm_new_password">Confirm Password</string>
+    <string name="reset_password">Reset Password</string>
+
+    <!-- Home Screen -->
+    <string name="search">Search</string>
+    <string name="uni_info">Uni Info</string>
+    <string name="academic">Academic</string>
+    <string name="sport">Sport</string>
+    <string name="event">Event</string>
+    <string name="breaking_news">Breaking News</string>
+    <string name="trending_news">Trending News</string>
+    <string name="view_all">View All</string>
+
+    <!-- Profile -->
+    <string name="profile">Profile</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="setting">Setting</string>
+    <string name="user_management">User Management</string>
+    <string name="information">Information</string>
+    <string name="privacy">Privacy</string>
+    <string name="help">Help</string>
+    <string name="sign_out">Sign Out</string>
+
+    <!-- Edit Profile -->
+    <string name="name">Name</string>
+    <string name="mobile_no">Mobile No</string>
+    <string name="address">Address</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- Developer Info -->
+    <string name="developer_info">Developer Info</string>
+    <string name="student_id">Student ID</string>
+    <string name="personal_statement">Personal Statement</string>
+    <string name="release_version">Release Version</string>
+    <string name="software_engineer">Software Engineer</string>
+    <string name="release_version_text">Release Version: V1.0.0</string>
+
+    <!-- Sports -->
+    <string name="inter_faculty_football">Inter-Faculty Football Tournament Kicks Off</string>
+    <string name="football_desc">The University\'s Annual Inter-Faculty Football Tournament Began This Week With An Exciting Match Between FoT And FoS, Ending In A 3-2 Victory For FoT.</string>
+    <string name="fot_team_qualifies">FoT Team Qualifies For University Athletics Final</string>
+    <string name="athletics_desc">The Faculty Of Technology Athletics Team Advanced To The Finals In The 100m Relay And Long Jump Events At The Inter-University Games 2025.</string>
+</resources>

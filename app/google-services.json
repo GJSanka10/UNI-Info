@@ -1,0 +1,124 @@
+{
+  "project_info": {
+    "project_number": "539438070232",
+    "project_id": "foodapp-ac8e3",
+    "storage_bucket": "foodapp-ac8e3.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:539438070232:android:a2e23536d53e519be3daad",
+        "android_client_info": {
+          "package_name": "build.gradle"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGxfrSUE50gVZbV2jZ0r0vpAF8CixhUAo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:539438070232:android:f40094c7732b8985e3daad",
+        "android_client_info": {
+          "package_name": "com.example.info"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGxfrSUE50gVZbV2jZ0r0vpAF8CixhUAo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:539438070232:android:6aabf1b7007630e2e3daad",
+        "android_client_info": {
+          "package_name": "com.example.newsapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGxfrSUE50gVZbV2jZ0r0vpAF8CixhUAo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:539438070232:android:1128b14b591b4ff5e3daad",
+        "android_client_info": {
+          "package_name": "com.example.pulse"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGxfrSUE50gVZbV2jZ0r0vpAF8CixhUAo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:539438070232:android:e746b14e635a0e87e3daad",
+        "android_client_info": {
+          "package_name": "com.example.pulse1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGxfrSUE50gVZbV2jZ0r0vpAF8CixhUAo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:539438070232:android:779c7d6be9cd093be3daad",
+        "android_client_info": {
+          "package_name": "com.yourname.newsapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGxfrSUE50gVZbV2jZ0r0vpAF8CixhUAo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
