@@ -25,7 +25,6 @@ public class User implements Serializable {
         this.profileImageUrl = profileImageUrl;
         this.createdAt = createdAt;
     }
-
     // Getters and Setters
     public String getUserId() { return userId; }
     public void setUserId(String userId) { this.userId = userId; }
