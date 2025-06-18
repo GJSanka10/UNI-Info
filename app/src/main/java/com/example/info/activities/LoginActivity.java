@@ -764,7 +764,6 @@ public class LoginActivity extends AppCompatActivity {
                     Toast.makeText(this, "Failed to save user data", Toast.LENGTH_SHORT).show();
                 });
     }
-
     // VALIDATION METHODS
     private boolean validateEmail(String email) {
         if (TextUtils.isEmpty(email)) {
