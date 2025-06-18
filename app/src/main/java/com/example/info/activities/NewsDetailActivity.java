@@ -29,7 +29,6 @@ public class NewsDetailActivity extends AppCompatActivity {
         setContentView(R.layout.activity_news_detail); // Make sure this layout exists and has the right views
 
         db = FirebaseFirestore.getInstance();
-
         titleTextView = findViewById(R.id.titleTextView);
         descriptionTextView = findViewById(R.id.descriptionTextView);
         contentTextView = findViewById(R.id.contentTextView);
@@ -49,7 +48,6 @@ public class NewsDetailActivity extends AppCompatActivity {
             finish();
         }
     }
-
     private void loadNewsById(String newsId) {
         db.collection("news")
                 .document(newsId)
@@ -71,7 +69,6 @@ public class NewsDetailActivity extends AppCompatActivity {
                     finish();
                 });
     }
-
     private void displayNews(News news) {
         titleTextView.setText(news.getTitle());
         descriptionTextView.setText(news.getDescription());

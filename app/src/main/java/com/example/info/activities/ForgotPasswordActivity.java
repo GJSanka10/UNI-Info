@@ -44,7 +44,6 @@ public class ForgotPasswordActivity extends AppCompatActivity {
         progressBar = findViewById(R.id.progressBar);
         successLayout = findViewById(R.id.successLayout);
     }
-
     private void setupClickListeners() {
         // Back button click
         backButton.setOnClickListener(v -> finish());
@@ -57,7 +56,6 @@ public class ForgotPasswordActivity extends AppCompatActivity {
             finish(); // Just go back for now
         });
     }
-
     private void sendPasswordResetEmail() {
         String email = emailEditText.getText().toString().trim();
 

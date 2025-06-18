@@ -377,7 +377,6 @@ public class ProfileActivity extends AppCompatActivity {
                     }
                 });
     }
-
     private void performAccountDeletion() {
         // Show progress dialog
         AlertDialog progressDialog = new AlertDialog.Builder(this)
@@ -405,7 +404,6 @@ public class ProfileActivity extends AppCompatActivity {
                             .addOnFailureListener(e -> {
                                 progressDialog.dismiss();
                                 String errorMessage = e.getMessage();
-
                                 // Handle specific error cases
                                 if (errorMessage != null) {
                                     if (errorMessage.contains("requires-recent-login")) {
