@@ -26,20 +26,17 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ViewAllNewsActivity extends AppCompatActivity {
-
     private static final String TAG = "ViewAllNewsActivity";
     public static final String EXTRA_NEWS_TYPE = "news_type";
     public static final String EXTRA_CATEGORY = "category";
     public static final String TYPE_CATEGORY = "category";
     public static final String TYPE_TRENDING = "trending";
-
     private TextView titleTextView;
     private ImageView backButton;
     private RecyclerView newsRecyclerView;
     private ProgressBar progressBar;
     private SwipeRefreshLayout swipeRefreshLayout;
     private TextView emptyStateTextView;
-
     private NewsAdapter newsAdapter;
     private List<News> newsList;
     private FirebaseFirestore db;

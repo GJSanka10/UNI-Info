@@ -99,7 +99,6 @@ public class NewsAdapter extends RecyclerView.Adapter<NewsAdapter.NewsViewHolder
                 holder.imageView.setImageResource(R.drawable.card_bg);
             }
         }
-
         // Set click listener
         holder.itemView.setOnClickListener(v -> {
             Intent intent = new Intent(context, NewsDetailActivity.class);
@@ -108,7 +107,6 @@ public class NewsAdapter extends RecyclerView.Adapter<NewsAdapter.NewsViewHolder
             context.startActivity(intent);
         });
     }
-
     @Override
     public int getItemCount() {
         return newsList != null ? newsList.size() : 0;
