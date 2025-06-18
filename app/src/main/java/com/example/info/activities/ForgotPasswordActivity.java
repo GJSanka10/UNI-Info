@@ -18,7 +18,6 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.example.info.R;
 
 public class ForgotPasswordActivity extends AppCompatActivity {
-
     private EditText emailEditText;
     private Button sendResetLinkButton;
     private TextView errorTextView;
@@ -26,21 +25,16 @@ public class ForgotPasswordActivity extends AppCompatActivity {
     private ImageView backButton;
     private ProgressBar progressBar;
     private LinearLayout successLayout;
-
     private FirebaseAuth mAuth;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_forgot_password);
-
         // Initialize Firebase Auth
         mAuth = FirebaseAuth.getInstance();
-
         initializeViews();
         setupClickListeners();
     }
-
     private void initializeViews() {
         emailEditText = findViewById(R.id.emailEditText);
         sendResetLinkButton = findViewById(R.id.sendResetLinkButton);
